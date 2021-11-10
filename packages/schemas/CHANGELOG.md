@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1
+
+### Patch Changes
+
+- [`83a124f`](https://github.com/jonahsnider/zws/commit/83a124f5c32c01df93d79792fbff68dff924bb40) Thanks [@jonahsnider](https://github.com/jonahsnider)! - amongus
+
 ## 1.0.7
 
 ### Patch Changes
