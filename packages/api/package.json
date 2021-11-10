@@ -3,11 +3,11 @@
 	"version": "2.20.9",
 	"private": true,
 	"bugs": {
-		"url": "https://github.com/zws-im/zws/issues"
+		"url": "https://github.com/jonahsnider/zws/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/zws-im/zws.git"
+		"url": "git+https://github.com/jonahsnider/zws.git"
 	},
 	"license": "Apache-2.0",
 	"author": {

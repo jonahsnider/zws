@@ -15,7 +15,7 @@ You could also [host your own private instance](#Self-hosting) and use any chara
 ### Code Contributors
 
 This project exists thanks to all the people who contribute.
-[![Code contributors](https://opencollective.com/zws/contributors.svg?width=890&button=false)](https://github.com/zws-im/zws/graphs/contributors)
+[![Code contributors](https://opencollective.com/zws/contributors.svg?width=890&button=false)](https://github.com/jonahsnider/zws/graphs/contributors)
 
 Special thanks to [Jaex](https://github.com/Jaex) for integrating ZWS into [ShareX](https://getsharex.com/).
 
@@ -59,7 +59,7 @@ Consider using the API key feature of ZWS to restrict access to your instance.
 
 ### DigitalOcean
 
-[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/zws-im/zws/tree/main)
+[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/jonahsnider/zws/tree/main)
 
 We provide a template app specification YAML file to allow users to launch an instance on the DigitalOcean App Platform.
 
@@ -110,7 +110,7 @@ ZWS instances expose two routes that implement the [Shields endpoint schema](htt
 | ![Number of visited URLs][stats-visits-image] | `/stats/shields/visits`  | Number of visited URLs   | [`https://img.shields.io/endpoint?url=https://api.zws.im/stats/shields/visits`][stats-visits-image]   |
 | ![ZWS version][stats-version-image]           | `/stats/shields/version` | ZWS version              | [`https://img.shields.io/endpoint?url=https://api.zws.im/stats/shields/version`][stats-version-image] |
 
-[deploy-to-heroku]: https://dashboard.heroku.com/new?template=https://github.com/zws-im/zws
+[deploy-to-heroku]: https://dashboard.heroku.com/new?template=https://github.com/jonahsnider/zws
 [deploy-to-heroku-image]: https://www.herokucdn.com/deploy/button.svg
 [heroku-postgres]: https://www.heroku.com/postgres
 [docker-compose]: https://docs.docker.com/compose/
