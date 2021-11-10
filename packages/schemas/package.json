@@ -1,6 +1,6 @@
 {
 	"name": "@zws.im/test-package",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"description": "CI test package - do not use this",
 	"bugs": {
 		"url": "https://github.com/jonahsnider/zws/issues"

@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.0.1
+
+### Patch Changes
+
+- [`a86ff2b`](https://github.com/jonahsnider/zws/commit/a86ff2bbd15c8a7521085471305bb173f95bb12f) Thanks [@jonahsnider](https://github.com/jonahsnider)! - b
+
 ## 2.0.0
 
 ### Major Changes
