@@ -234,4 +234,4 @@ jobs:
           # Exit succesfully if no changes
           (git commit -m "build: release" && git push --follow-tags -u github main) || exit 0
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
