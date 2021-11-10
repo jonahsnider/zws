@@ -198,7 +198,8 @@ jobs:
     # `semantic-release` will do this automatically, but this saves us the time of building the image prior to that
     if: ${{ github.ref  == 'refs/heads/main' }}
 
-    needs: [build, docker-build, smoke-test, lint, lint-dockerfile, validate-prisma]
+    # TODO: uncomment this
+    # needs: [build, docker-build, smoke-test, lint, lint-dockerfile, validate-prisma]
 
     steps:
       - name: Checkout git repository
