@@ -21,8 +21,7 @@
 		"prebuild": "rm -rf tsc_output",
 		"build": "tsc",
 		"clean": "rm -r ./src/ ./scripts/ ./tsconfig.json",
-		"start": "node --experimental-json-modules .",
-		"postversion": "./scripts/postversion.bash"
+		"start": "node --experimental-json-modules ."
 	},
 	"dependencies": {
 		"@google-cloud/profiler": "4.1.5",
