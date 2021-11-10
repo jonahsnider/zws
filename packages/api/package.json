@@ -20,7 +20,7 @@
 	"scripts": {
 		"prebuild": "rm -rf tsc_output",
 		"build": "tsc",
-		"clean": "rm -r ./src/ ./scripts/ ./tsconfig.json",
+		"clean": "rm -r ./src/ ./tsconfig.json",
 		"start": "node --experimental-json-modules ."
 	},
 	"dependencies": {
