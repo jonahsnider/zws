@@ -226,7 +226,7 @@ jobs:
       - name: Update versions with changesets
         run: yarn changeset version
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT_GITHUB }}
       - name: Publish with changesets
         run: |
           yarn changeset publish
