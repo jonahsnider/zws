@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.0.0
+
+### Major Changes
+
+- [`8e299bd`](https://github.com/jonahsnider/zws/commit/8e299bd80ba69988e9efcc02c32315eac7b24b51) Thanks [@jonahsnider](https://github.com/jonahsnider)! - a
+
 ## 2.20.10
 
 ### Patch Changes
