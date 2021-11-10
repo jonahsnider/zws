@@ -1,7 +1,7 @@
 {
-	"name": "@zws.im/schemas",
-	"version": "1.0.7",
-	"description": "zws.im schemas for errors, inputs, and models",
+	"name": "@zws.im/test-package",
+	"version": "1.0.0",
+	"description": "CI test package - do not use this",
 	"bugs": {
 		"url": "https://github.com/jonahsnider/zws/issues"
 	},
