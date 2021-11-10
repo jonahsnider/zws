@@ -1,6 +1,6 @@
 {
 	"name": "@zws.im/api",
-	"version": "3.0.1",
+	"version": "3.0.2",
 	"private": true,
 	"bugs": {
 		"url": "https://github.com/jonahsnider/zws/issues"

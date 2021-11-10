@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.0.2
+
+### Patch Changes
+
+- [`0781b97`](https://github.com/jonahsnider/zws/commit/0781b97b335d19bb3ee6928cc98694afbe9d4cf7) Thanks [@jonahsnider](https://github.com/jonahsnider)! - yeah
+
 ## 3.0.1
 
 ### Patch Changes
