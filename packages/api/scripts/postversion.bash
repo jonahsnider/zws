@@ -12,4 +12,6 @@ docker buildx create --use
 # Build and publish
 # TODO: Re-enable ARM builds once Prisma binaries can be installed
 # docker buildx build --pull --push --tag zwsim/zws:latest --tag zwsim/zws:$NEXT_VERSION --platform linux/amd64,linux/arm64 $PWD/../../
-docker buildx build --pull --push --tag zwsim/zws:latest --tag zwsim/zws:$NEXT_VERSION --platform linux/amd64 $PWD/../../
+# docker buildx build --pull --push --tag zwsim/zws:latest --tag zwsim/zws:$NEXT_VERSION --platform linux/amd64 $PWD/../../
+docker buildx build --pull --tag zwsim/zws:latest --tag zwsim/zws:$NEXT_VERSION --platform linux/amd64 $PWD/../../
+#              no --push ^^^
