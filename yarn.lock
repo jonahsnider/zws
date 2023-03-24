@@ -1267,7 +1267,7 @@ __metadata:
     consola: 2.15.3
     dotenv: 10.0.0
     fastify: 3.23.1
-    fastify-bearer-auth: 5.1.0
+    fastify-bearer-auth: 6.3.0
     fastify-swagger: 4.12.6
     millify: 4.0.0
     prisma: 3.4.1
@@ -3136,12 +3136,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fastify-bearer-auth@npm:5.1.0":
-  version: 5.1.0
-  resolution: "fastify-bearer-auth@npm:5.1.0"
+"fastify-bearer-auth-deprecated@npm:fastify-bearer-auth@6.2.0":
+  version: 6.2.0
+  resolution: "fastify-bearer-auth@npm:6.2.0"
   dependencies:
     fastify-plugin: ^3.0.0
-  checksum: 88bb34dd274ec154d3177ecdb244e0febc95e9a0923c97ea51915f7fa7d20b21f995d1a9f286449c7a271bbaf1dfc7c6511afe8e3c11dd3cc8a0f4850bb034ea
+  checksum: 0a5120113ef0a2014db424329b182c5f282299da3422d1cde939577d82450e361e982b1a566ea3bebd141927e9c426889208c804482ffad2d311d7d2e147348c
+  languageName: node
+  linkType: hard
+
+"fastify-bearer-auth@npm:6.3.0":
+  version: 6.3.0
+  resolution: "fastify-bearer-auth@npm:6.3.0"
+  dependencies:
+    fastify-bearer-auth-deprecated: "npm:fastify-bearer-auth@6.2.0"
+    process-warning: ^1.0.0
+  checksum: bd7960948e1df3a977b409077821c0b9cf20968f81ddfdcb437944088a2a5c632aeb06aa2e09f93d015105cb4b4e30ea29590f9e61b92d5738b3bdf6d4b852d5
   languageName: node
   linkType: hard
 
@@ -5630,6 +5640,13 @@ __metadata:
   version: 2.0.1
   resolution: "process-nextick-args@npm:2.0.1"
   checksum: 1d38588e520dab7cea67cbbe2efdd86a10cc7a074c09657635e34f035277b59fbb57d09d8638346bf7090f8e8ebc070c96fa5fd183b777fff4f5edff5e9466cf
+  languageName: node
+  linkType: hard
+
+"process-warning@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "process-warning@npm:1.0.0"
+  checksum: c708a03241deec3cabaeee39c4f9ee8c4d71f1c5ef9b746c8252cdb952a6059068cfcdaf348399775244cbc441b6ae5e26a9c87ed371f88335d84f26d19180f9
   languageName: node
   linkType: hard
 
