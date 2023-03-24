@@ -1269,7 +1269,7 @@ __metadata:
     fastify: 3.23.1
     fastify-bearer-auth: 5.1.0
     fastify-swagger: 4.12.6
-    millify: 4.0.0
+    millify: 6.1.0
     prisma: 3.4.1
     ts-node: 10.4.0
     tslib: 2.3.1
@@ -4768,14 +4768,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"millify@npm:4.0.0":
-  version: 4.0.0
-  resolution: "millify@npm:4.0.0"
+"millify@npm:6.1.0":
+  version: 6.1.0
+  resolution: "millify@npm:6.1.0"
   dependencies:
     yargs: ^17.0.1
   bin:
     millify: bin/millify
-  checksum: 748488a990a0d52c035738691194f08087a606fe8d7d4d0dd57bc72a077805b79a173afbfd5511720b8b1ac2dadc7f8696f768568ab77ae63dd476d0c3117c41
+  checksum: f5e33f4c9413d697d8b64967c8cfaca32c9796c17c691fe986a139322f7387aad6727cdbd9eeb9e3b20615bcb3dec067eabb10c119d4c19f3e35d975b0a4eab8
   languageName: node
   linkType: hard
 
