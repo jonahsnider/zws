@@ -1268,7 +1268,7 @@ __metadata:
     dotenv: 10.0.0
     fastify: 3.23.1
     fastify-bearer-auth: 5.1.0
-    fastify-swagger: 4.12.6
+    fastify-swagger: 5.2.0
     millify: 4.0.0
     prisma: 3.4.1
     ts-node: 10.4.0
@@ -3172,16 +3172,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fastify-swagger@npm:4.12.6":
-  version: 4.12.6
-  resolution: "fastify-swagger@npm:4.12.6"
+"fastify-swagger-deprecated@npm:fastify-swagger@5.1.1":
+  version: 5.1.1
+  resolution: "fastify-swagger@npm:5.1.1"
   dependencies:
     fastify-plugin: ^3.0.0
     fastify-static: ^4.0.0
     js-yaml: ^4.0.0
     json-schema-resolver: ^1.3.0
-    openapi-types: ^9.1.0
-  checksum: 8bac551ede541d225d9451da29d9847d5b0c4131ebd1b81d65af13d119c64a6c6dfaa73aa316c0fe766cd2a52f3707239ace7b79a39da9192be5fc76b439286f
+    openapi-types: ^10.0.0
+    rfdc: ^1.3.0
+  checksum: 6ead1e803fed5a35c57981514d8222162d93013f8507f572ed4562775bf3b84905a1233407cbcde664b58fe47322d1548c12066d1c70f22d19cb8b2f015a0f44
+  languageName: node
+  linkType: hard
+
+"fastify-swagger@npm:5.2.0":
+  version: 5.2.0
+  resolution: "fastify-swagger@npm:5.2.0"
+  dependencies:
+    fastify-swagger-deprecated: "npm:fastify-swagger@5.1.1"
+    process-warning: ^1.0.0
+  checksum: 877cf5b084f820d0fa8d1ce1845720ca7519b79ae9f0f7806016f46b78faf30c6255af7ea35a9f20892ad9a65117e3e6d920356fe20a9a82caf22dd721adc512
   languageName: node
   linkType: hard
 
@@ -5188,10 +5199,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"openapi-types@npm:^9.1.0":
-  version: 9.1.0
-  resolution: "openapi-types@npm:9.1.0"
-  checksum: 8ae57949c00ff70bc98b45d688fcdf848b9f2a44a3f70869d1cbd892dbac1d05f5f72350394ba1e254245090900722ce0fd305aadca0e9168cbfbf3a20b9df72
+"openapi-types@npm:^10.0.0":
+  version: 10.0.0
+  resolution: "openapi-types@npm:10.0.0"
+  checksum: 8cc8b5bf40ea10b1f9c56fb05aada74bfe3d9e94e141464561a5c3cd0a933906e57d9bf4e059219ec8e63a97a69e0655d21c9dd3f4de1ff4f71672d10664cfc0
   languageName: node
   linkType: hard
 
@@ -5633,6 +5644,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"process-warning@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "process-warning@npm:1.0.0"
+  checksum: c708a03241deec3cabaeee39c4f9ee8c4d71f1c5ef9b746c8252cdb952a6059068cfcdaf348399775244cbc441b6ae5e26a9c87ed371f88335d84f26d19180f9
+  languageName: node
+  linkType: hard
+
 "progress@npm:^2.0.0":
   version: 2.0.3
   resolution: "progress@npm:2.0.3"
@@ -5980,7 +5998,7 @@ resolve@~1.19.0:
   languageName: node
   linkType: hard
 
-"rfdc@npm:^1.1.4, rfdc@npm:^1.2.0":
+"rfdc@npm:^1.1.4, rfdc@npm:^1.2.0, rfdc@npm:^1.3.0":
   version: 1.3.0
   resolution: "rfdc@npm:1.3.0"
   checksum: fb2ba8512e43519983b4c61bd3fa77c0f410eff6bae68b08614437bc3f35f91362215f7b4a73cbda6f67330b5746ce07db5dd9850ad3edc91271ad6deea0df32
