@@ -24,7 +24,7 @@
 		"start": "node --experimental-json-modules ."
 	},
 	"dependencies": {
-		"@google-cloud/profiler": "4.1.5",
+		"@google-cloud/profiler": "5.0.4",
 		"@jonahsnider/util": "8.4.1",
 		"@prisma/client": "3.4.1",
 		"@sentry/node": "6.14.1",
