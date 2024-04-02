@@ -48,7 +48,7 @@ jobs:
       - name: Checkout git repository
         uses: actions/checkout@v2
       - name: Generate release notes
-        uses: actions/github-script@v5
+        uses: actions/github-script@v7
         id: release-info
         with:
           script: |
