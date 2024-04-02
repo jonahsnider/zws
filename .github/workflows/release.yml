@@ -18,7 +18,7 @@ jobs:
 
     steps:
       - name: Checkout git repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v1
       - name: Log in to Docker Hub
@@ -46,7 +46,7 @@ jobs:
 
     steps:
       - name: Checkout git repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Generate release notes
         uses: actions/github-script@v5
         id: release-info
